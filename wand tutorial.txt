@@ -1,0 +1,19 @@
+##with Image(width=500,height=500,background=Color('red')) as img1:
+##    #img.save(filename='image.png')
+##
+##    with Drawing() as draw:
+##        draw.font_size=30
+##        draw.fill_color=Color('darkblue')
+##        draw.text(30,50,'yoyooyoyooyo')
+##        draw(img1)
+##        img1.save(filename='image.png')
+##        #display(img1)
+
+
+##with Image(filename='assets/nike_black.png') as img1:
+##    img1.resize(200,80)
+##    with Image(filename='assets/image1.jpg') as img:
+##        img.resize(500,800)
+##        img.composite_channel('all_channels',img1,'dissolve',0,0)
+##        display(img)
+##    
